@@ -1,29 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOS BURGER</title>
-    <link href='https://fonts.googleapis.com/css?family=Jockey One' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Jaldi' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <title>MOS BURGERS</title>
+    <link rel="stylesheet" href="Styles/index.css">
+    <style>
+        body,
+        html {
+            /* background-image: url(Images/background.png); */
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            height: 100%;
+        }
+
+        .sidebar {
+            width: 80px;
+            background-color: #222;
+            color: white;
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px !important;
+            margin-bottom: 100px;
+            margin-top: 30px;
+        }
+
+        .sidebar a {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #ff6600;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+        }
+
+        .sidebar img {
+            width: 40px;
+            height: 40px;
+        }
+        .side-item{
+            margin-top: 80px !important;
+            margin-bottom: 80px !important;
+        }
+
+        .frame {
+            flex-grow: 1;
+        }
+
+        #contentFrame {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .footer {
+            background-color: #000000;
+            position: fixed;
+            bottom: 10px;
+            left: 130px;
+            color: white;
+            height: 25px;
+            font-size: 12px;
+        }
+    </style>
+    <script>
+        function loadPage(page) {
+            document.getElementById('contentFrame').src = page;
+        }
+    </script>
 </head>
+
 <body>
-    <div class="frame">
-        <div class="container">
-            <div class="left-panel">
-                <!-- <h1>MOS BURGER</h1> -->
-                <p class="question">ARE YOU A?</p>
-                <button class="button admin" >Admin</button>
-                <!-- <button class="button cashier">Cashier</button> -->
-                 <a href="sample.html" class="button-link">
-                    <button class="button cashier">Cashier</button>
-                </a>
-            </div>
-            <div class="right-panel">
-                <img src="img/Home Burger.jpg" alt="Juicy burger" class="burger-img">
-            </div>
+    <div class="container">
+        <div class="sidebar" style="width: 130px;">
+            <img src="images/MOS BURGER.png" alt="" class="logo">
+            <a href="#" onclick="loadPage('menu.html')"><img src="images/Fast Cart.png" alt="Menu" class="side-item"></a>
+            <a href="#" onclick="loadPage('orders.html')"><img src="images/Order Completed.png" alt="Orders" class="side-item"></a>
+            <a href="#" onclick="loadPage('items.html')"><img src="images/Fast Cart.png" alt="Items" class="side-item"></a>
+            <a href="#" onclick="loadPage('customers.html')"><img src="images/Search Client.png" alt="Customers" class="side-item"></a>
+            <a href="#" onclick="loadPage('reports.html')"><img src="images/Add Pie Chart Report.png" alt="Reports" class="side-item"></a>
+            <!-- <div class="footer">
+                <p>@2024...DilshanPadukkka</p>
+            </div> -->
+        </div>
+        <div class="frame">
+            <iframe id="contentFrame" src="menu.html"></iframe>
         </div>
     </div>
 </body>
+
 </html>

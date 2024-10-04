@@ -1,0 +1,381 @@
+[
+    {
+        "itemno": "B1001",
+        "itemtype": "Burger",
+        "name": "Classic Burger (Large)",
+        "price": "750.00",
+        "imageUrl": "https://static.vecteezy.com/system/resources/previews/019/023/604/non_2x/front-view-tasty-meat-burger-with-cheese-and-salad-free-photo.jpg"
+    },
+    {
+        "itemno": "B1002",
+        "itemtype": "Burger",
+        "name": "Classic Burger (Regular)",
+        "price": "1500.00",
+        "imageUrl": "https://static.vecteezy.com/system/resources/previews/019/023/604/non_2x/front-view-tasty-meat-burger-with-cheese-and-salad-free-photo.jpg"
+    },
+    {
+        "itemno": "B1003",
+        "itemtype": "Burger",
+        "name": "Turkey Burger",
+        "price": "1600.00",
+        "imageUrl": "https://www.southernliving.com/thmb/H04pCVJ5bLAnwPs2hFCmpNs5Uec=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ultimate-southern-burger_batch64_beauty01-86-b9c26e256dd34e39b6c0cfb0c02a9fef.jpg"
+    },
+    {
+        "itemno": "C1001",
+        "itemtype": "Chicken",
+        "name": "Fried Chicken (Small)",
+        "price": "1200.00",
+        "imageUrl": "https://thissillygirlskitchen.com/wp-content/uploads/2020/05/Southern-Fried-Chicken-20-500x500.jpg"
+    },
+    {
+        "itemno": "C1002",
+        "itemtype": "Chicken",
+        "name": "Fried Chicken (Regular)",
+        "price": "2300.00",
+        "imageUrl": "https://images.getrecipekit.com/20240103192542-buffalo-chicken-wings.jpg?width=650&quality=90&"
+    },
+    {
+        "itemno": "C1003",
+        "itemtype": "Chicken",
+        "name": "Fried Chicken (Large)",
+        "price": "3100.00",
+        "imageUrl": "https://static01.nyt.com/images/2024/01/10/multimedia/10Korean-Fried-Chicken-lfcg/10Korean-Fried-Chicken-lfcg-superJumbo.jpg"
+    },
+    {
+        "itemno": "C1004",
+        "itemtype": "Chicken",
+        "name": "Hot Wings (Large)",
+        "price": "2400.00",
+        "imageUrl": "https://yestoyolks.com/wp-content/uploads/2020/09/IMG_3745.jpg"
+    },
+    {
+        "itemno": "C1005",
+        "itemtype": "Chicken",
+        "name": "Devilled Chicken (Large)",
+        "price": "900.00",
+        "imageUrl": "https://media.30seconds.com/tip/lg/Sr-Lankan-Deviled-Chicken-21500-072f0c162d-1617328178.jpg"
+    },
+    {
+        "itemno": "C1006",
+        "itemtype": "Chicken",
+        "name": "BBQ Chicken (Regular)",
+        "price": "2100.00",
+        "imageUrl": "https://grilledcheesesocial.com/wp-content/uploads/2024/06/bbq-chicken-thighs-recipe-thumbnail.jpg"
+    },
+    {
+        "itemno": "C1007",
+        "itemtype": "Chicken",
+        "name": "Chicken Tenders (Large)",
+        "price": "1900.00",
+        "imageUrl": "https://static01.nyt.com/images/2023/10/18/multimedia/EP-Air-fryer-chicken-tenders-cpmw/EP-Air-fryer-chicken-tenders-cpmw-superJumbo.jpg"
+    },
+    {
+        "itemno": "C1008",
+        "itemtype": "Chicken",
+        "name": "Honey Garlic Chicken Wings",
+        "price": "2600.00",
+        "imageUrl": "https://www.sugarsaltmagic.com/wp-content/uploads/2023/03/Honey-Garlic-Chicken-Wings-4FEAT.jpg"
+    },
+    {
+        "itemno": "C1009",
+        "itemtype": "Chicken",
+        "name": "Buffalo Chicken Drumsticks",
+        "price": "2100.00",
+        "imageUrl": "https://carlsbadcravings.com/wp-content/uploads/2014/12/Buffalo-Honey-Hot-Wings10-500x500.jpg"
+    },
+    {
+        "itemno": "P1001",
+        "itemtype": "Pasta",
+        "name": "Chicken n Cheese Pasta",
+        "price": "1600.00",
+        "imageUrl": "https://vikalinka.com/wp-content/uploads/2023/01/Tomato-Cream-Cheese-Pasta-8-Edit.jpg"
+    },
+    {
+        "itemno": "P1002",
+        "itemtype": "Pasta",
+        "name": "Chicken Penne Pasta",
+        "price": "1700.00",
+        "imageUrl": "https://www.sargento.com/assets/Uploads/Recipe/Image/chickenmac__FillWzExNzAsNTgzXQ.jpg"
+    },
+    {
+        "itemno": "P1003",
+        "itemtype": "Pasta",
+        "name": "Ground Turkey Pasta Bake",
+        "price": "2900.00",
+        "imageUrl": "https://modernmealmakeover.com/wp-content/uploads/2020/12/DSC01293.jpg"
+    },
+    {
+        "itemno": "P1004",
+        "itemtype": "Pasta",
+        "name": "Creamy Shrimp Pasta",
+        "price": "2000.00",
+        "imageUrl": "https://iamhomesteader.com/wp-content/uploads/2020/07/chicken-ranch-mac.jpg"
+    },
+    {
+        "itemno": "P1005",
+        "itemtype": "Pasta",
+        "name": "Lemon Butter Pasta",
+        "price": "1950.00",
+        "imageUrl": "https://iamhomesteader.com/wp-content/uploads/2023/06/white-cheddar-chicken-pasta-new.jpg"
+    },
+    {
+        "itemno": "P1006",
+        "itemtype": "Pasta",
+        "name": "Tagliatelle Pasta",
+        "price": "2400.00",
+        "imageUrl": "https://img.taste.com.au/ymXDHjxG/taste/2016/11/chicken-mac-and-cheese-60778-1.jpeg"
+    },
+    {
+        "itemno": "P1007",
+        "itemtype": "Pasta",
+        "name": "Baked Ravioli",
+        "price": "2000.00",
+        "imageUrl": "https://bellyfull.net/wp-content/uploads/2021/12/Ravioli-Casserole-blog-2.jpg"
+    },
+    {
+        "itemno": "P1008",
+        "itemtype": "Pasta",
+        "name": "Alfredo Pasta",
+        "price": "2250.00",
+        "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-06-chicken-alfredo-pasta-reshoot%2Fchicken-alfredo-pasta-2-vertical"
+    },
+    {
+        "itemno": "P1009",
+        "itemtype": "Pasta",
+        "name": "Mushroom Spinach Pasta",
+        "price": "2150.00",
+        "imageUrl": "https://www.eatgood4life.com/wp-content/uploads/2013/08/IMG_6468.jpg"
+    },
+    {
+        "itemno": "B2001",
+        "itemtype": "Beverage",
+        "name": "Pepsi (330ml)",
+        "price": "990.00",
+        "imageUrl": "https://assets-global.website-files.com/63b4dfd34fd227d85e61c2ab/64f2027bdbffae8a63511c94_PEP_Packaging_CanLineup.png"
+    },
+    {
+        "itemno": "B2002",
+        "itemtype": "Beverage",
+        "name": "Coca-Cola (330ml)",
+        "price": "1230.00",
+        "imageUrl": "https://craftyconnoisseur.co.uk/wp-content/uploads/2023/10/Untitled-design.jpeg"
+    },
+    {
+        "itemno": "B2003",
+        "itemtype": "Beverage",
+        "name": "Sprite (330ml)",
+        "price": "1500.00",
+        "imageUrl": "https://static.thcdn.com/images/medium/original/widgets/190-en/31/D2C-GB_SpriteFenix_TwoItemEditorial-Image_070223-121431.png"
+    },
+    {
+        "itemno": "B2004",
+        "itemtype": "Beverage",
+        "name": "Fanta (330ml)",
+        "price": "870.00",
+        "imageUrl": "https://creativereview.imgix.net/content/uploads/2023/04/fanta-branding-8.jpg"
+    },
+    {
+        "itemno": "B2005",
+        "itemtype": "Beverage",
+        "name": "Mountain Dew (330ml)",
+        "price": "1100.00",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgrWQVDWL7fTuFHdTSKy253uPk9G_YKJhB81W_buBZ_jl3XtRjaqibpErGGO9_1fCBwKo&usqp=CAU"
+    },
+    {
+        "itemno": "B2006",
+        "itemtype": "Beverage",
+        "name": "Dr. Pepper (330ml)",
+        "price": "1220.00",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxW9fwUnRTDLiuga1p-Bs8kJqvA2HRXJqENQ&s"
+    },
+    {
+        "itemno": "S2001", 
+        "itemtype": "Submarine", 
+        "name": "Italian BMT", 
+        "price": "1100.00", 
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4zT_18o4oSBYuYryV38oow_s8ISw-lTmaA&s"
+    },
+    {
+        "itemno": "S2002", 
+        "itemtype": "Submarine", 
+        "name": "Chicken Teriyaki", 
+        "price": "1150.00", 
+        "imageUrl": "https://www.thereciperebel.com/wp-content/uploads/2021/09/teriyaki-chicken-www.thereciperebel.com-1200-6-of-31.jpg"
+    },
+    {
+        "itemno": "S2003", 
+        "itemtype": "Submarine", 
+        "name": "Veggie Delight", 
+        "price": "1050.00", 
+        "imageUrl": "https://img.freepik.com/premium-photo/veggie-delight-sub-sandwich-with-hummus-assorted-fresh-vegetables_198067-249078.jpg"
+    },
+    {
+        "itemno": "S2004", 
+        "itemtype": "Submarine", 
+        "name": "Turkey Breast", 
+        "price": "1200.00", 
+        "imageUrl": "https://www.jocooks.com/wp-content/uploads/2020/11/air-fryer-turkey-breast-1.jpg"
+    },
+    {
+        "itemno": "S2005", 
+        "itemtype": "Submarine", 
+        "name": "Tuna", 
+        "price": "1120.00", 
+        "imageUrl": "https://lonumedhu.com/sites/default/files/cover%20photo.jpg"
+    },
+    {
+        "itemno": "S2007", 
+        "itemtype": "Submarine", 
+        "name": "Spicy Italian", 
+        "price": "1230.00", 
+        "imageUrl": "https://cdn.lemonsforlulu.com/wp-content/uploads/2019/02/Spicy-Italian-Subs-6-720x720.jpg"
+    },
+    {
+        "itemno": "S2008", 
+        "itemtype": "Submarine", 
+        "name": "Roast Beef", 
+        "price": "1300.00", 
+        "imageUrl": "https://thumbs.dreamstime.com/b/roast-beef-submarine-sandwich-cheese-tomato-lettuce-wooden-cutting-board-185764078.jpg"
+    },
+    {
+        "itemno": "S2009", 
+        "itemtype": "Submarine", 
+        "name": "Steak & Cheese", 
+        "price": "1350.00", 
+        "imageUrl": "https://www.jocooks.com/wp-content/uploads/2020/11/philly-cheesesteak-1-14-750x750.jpg"
+    },
+    {
+        "itemno": "S2010", 
+        "itemtype": "Submarine", 
+        "name": "BLT", 
+        "price": "1280.00", 
+        "imageUrl": "https://vjcooks.com/wp-content/uploads/2024/05/VJ_Cooks_Chicken_BLT-8.jpg"
+    },
+    {
+        "itemno": "F2001", 
+        "itemtype": "Fries", 
+        "name": "Classic Fries", 
+        "price": "400.00", 
+        "imageUrl": "https://jamiegeller.com/.image/t_share/MTY1NTI0ODcxNTEzODQzMjM4/crispy-classic-french-friesjpg.jpg"
+    },
+    {
+        "itemno": "F2002", 
+        "itemtype": "Fries", 
+        "name": "Cheese Fries", 
+        "price": "450.00", 
+        "imageUrl": "https://www.acouplecooks.com/wp-content/uploads/2022/06/Cheese-Fries-005.jpg"
+    },
+    {
+        "itemno": "F2003", 
+        "itemtype": "Fries", 
+        "name": "Curly Fries", 
+        "price": "420.00", 
+        "imageUrl": "https://www.everydayfamilycooking.com/wp-content/uploads/2022/07/Air-Fryer-Curly-Fries3.jpg"
+    },
+    {
+        "itemno": "F2004", 
+        "itemtype": "Fries", 
+        "name": "Cajun Fries", 
+        "price": "430.00", 
+        "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-11-cajun-fries%2F32989-Cajun-fries"
+    },
+    {
+        "itemno": "F2005", 
+        "itemtype": "Fries", 
+        "name": "Chili Cheese Fries", 
+        "price": "480.00", 
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyvMm0dXBY_V72VIUAh8GeAEKHMfr3auCD8Q&s"
+    },
+    {
+        "itemno": "F2007", 
+        "itemtype": "Fries", 
+        "name": "Sweet Potato Fries", 
+        "price": "450.00", 
+        "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2024/01/sweet-potato-fries.jpg"
+    },
+    {
+        "itemno": "F2008", 
+        "itemtype": "Fries", 
+        "name": "Garlic Parmesan Fries", 
+        "price": "470.00", 
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeokKXdvsB-_he0uy-KBbNeUH49yuiYH0KNhZA4NT0uxPYN3gdb9B6bt-Ne-g8TFlvU2U&usqp=CAU"
+    },
+    {
+        "itemno": "F2009", 
+        "itemtype": "Fries", 
+        "name": "Truffle Fries", 
+        "price": "500.00", 
+        "imageUrl": "https://www.willcookforsmiles.com/wp-content/uploads/2022/06/Truffle-Fries-6.jpg"
+    },
+    {
+        "itemno": "F2010", 
+        "itemtype": "Fries", 
+        "name": "Loaded Fries", 
+        "price": "520.00", 
+        "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2022/08/Loaded-Cheese-Fries-SpendWithPennies-4.jpg"
+    },
+    {
+        "itemno": "B3001", 
+        "itemtype": "Beverage", 
+        "name": "Coca-Cola", 
+        "price": "250.00", 
+        "imageUrl": "https://www.coca-cola.com/content/dam/onexp/ie/en/offerings-2024/best-coke-ever/cczs_best_coke_ever_desktop.png"
+    },
+    {
+        "itemno": "B3002", 
+        "itemtype": "Beverage", 
+        "name": "Iced Tea", 
+        "price": "270.00", 
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCaemmLtHn5eS0z1dSpXTlCaVx6bwf6KjQ2w&s"
+    },
+    {
+        "itemno": "B3003", 
+        "itemtype": "Beverage", 
+        "name": "Orange Juice", 
+        "price": "300.00", 
+        "imageUrl": "https://cdn.tarladalal.com/members/9306/procstepimgs/orange-juice-with-manual-citrus-juicer-(1)-7-188535.jpg"
+    },{
+        "itemno": "B4001", 
+        "itemtype": "Burger", 
+        "name": "Classic Cheeseburger", 
+        "price": "900.00", 
+        "imageUrl": "https://www.modernhoney.com/wp-content/uploads/2022/05/Double-Double-Cheeseburger-with-Fries-Recipe-scaled.jpg"
+    },
+    {
+        "itemno": "B4002", 
+        "itemtype": "Burger", 
+        "name": "Bacon Cheeseburger", 
+        "price": "1050.00", 
+        "imageUrl": "https://tatyanaseverydayfood.com/wp-content/uploads/2021/06/Caramelized-Onion-Bacon-Cheeseburger-Recipe.jpg"
+    },
+    {
+        "itemno": "B4003", 
+        "itemtype": "Burger", 
+        "name": "Mushroom Swiss Burger", 
+        "price": "1000.00", 
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF0hozi1S8LaAzHga583oA64FaZbWRCj7x3w&s"
+    },
+    {
+        "itemno": "B4004", 
+        "itemtype": "Burger", 
+        "name": "Veggie Burger", 
+        "price": "850.00", 
+        "imageUrl": "https://www.seriouseats.com/thmb/_c-xbP-tch4dpSTxKE1zY16sHo8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20231204-SEA-VeganBurger-FredHardy-00-dbf603c78b694bfd99489b85ab44f4c4.jpg"
+    },
+    {
+        "itemno": "B4005", 
+        "itemtype": "Burger", 
+        "name": "BBQ Burger", 
+        "price": "1150.00", 
+        "imageUrl": "https://recipes.net/wp-content/uploads/2021/10/the-best-grilled-bbq-burger-recipe.jpg"
+    },
+    {
+        "itemno": "B4006", 
+        "itemtype": "Burger", 
+        "name": "Double Patty Burger", 
+        "price": "1200.00", 
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/08/31/10/17/burger-7422970_960_720.jpg"
+    }
+    
+    
+]
