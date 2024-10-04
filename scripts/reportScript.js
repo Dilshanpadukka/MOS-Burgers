@@ -30,15 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function processAndDisplayData(orders, todayString) {
-
     const customerOrderCount = {};
-
     const itemCount = {};
-
     const todayTransactions = [];
 
     orders.forEach(order => {
-
         console.log('Processing order:', order);
 
         const customerName = order.customerName || 'Unknown Customer';
@@ -93,6 +89,7 @@ function populateTransactionTable(transactions) {
         `;
     });
 }
+
 function populateCustomerTable(sortedCustomers) {
     const customerTableBody = document.getElementById('customerTable').getElementsByTagName('tbody')[0];
     customerTableBody.innerHTML = '';
@@ -134,6 +131,7 @@ function populateItemTable(sortedItems) {
         `;
     });
 }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function generatePDFReport() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF({
@@ -142,18 +140,42 @@ function generatePDFReport() {
         format: 'a4'
     });
 
-    let yPos = 15;
+    const pageWidth = doc.internal.pageSize.width;
+    const pageHeight = doc.internal.pageSize.height;
 
-    doc.setFontSize(18);
-    doc.text("Order Report", doc.internal.pageSize.width / 2, yPos, { align: 'center' });
-    yPos += 10;
-    
+    function addHeader() {
+        doc.setFontSize(18);
+        doc.setTextColor(255, 165, 0);
+        doc.text("MOS BURGERS", pageWidth / 2, 10, { align: 'center' });
+        doc.setFontSize(14);
+        doc.setTextColor(0, 0, 0);
+        doc.text("Daily Order Report", pageWidth / 2, 20, { align: 'center' });
+        doc.setFontSize(10);
+        doc.text(`Report generated on: ${new Date().toLocaleString()}`, pageWidth / 2, 25, { align: 'center' });
+    }
 
-    doc.setFontSize(12);
-    doc.text(`Report generated on: ${new Date().toLocaleString()}`, doc.internal.pageSize.width / 2, yPos, { align: 'center' });
-    yPos += 15;
+    function addFooter(pageNumber) {
+        doc.setFontSize(10);
+        doc.text("MOS Burgers - Delicious burgers, happy customers!", pageWidth / 2, pageHeight - 10, { align: 'center' });
+        doc.text(`Page ${pageNumber}`, pageWidth - 10, pageHeight - 10, { align: 'right' });
+        doc.text("www.mosburgers.lk", 10, pageHeight - 10);
+    }
+
+    let yPos = 35;
+    let pageNumber = 1;
+
+    addHeader();
+    addFooter(pageNumber);
 
     function addTableToPDF(title, tableId, columns) {
+        if (yPos > pageHeight - 40) {
+            doc.addPage();
+            pageNumber++;
+            yPos = 35;
+            addHeader();
+            addFooter(pageNumber);
+        }
+
         doc.setFontSize(14);
         doc.text(title, 14, yPos);
         yPos += 10;
@@ -175,8 +197,12 @@ function generatePDFReport() {
             theme: 'grid',
             styles: { fontSize: 8, cellPadding: 2 },
             columnStyles: columns,
-            margin: { left: 10, right: 10 },
-            tableWidth: 'auto'
+            margin: { top: 30, left: 10, right: 10, bottom: 20 },
+            tableWidth: 'auto',
+            didDrawPage: function (data) {
+                addHeader();
+                addFooter(pageNumber);
+            }
         });
         
         yPos = doc.lastAutoTable.finalY + 20;
@@ -187,9 +213,12 @@ function generatePDFReport() {
         1: { cellWidth: 'auto' }
     });
     
-    if (yPos > doc.internal.pageSize.height - 20) {
+    if (yPos > pageHeight - 40) {
         doc.addPage();
-        yPos = 15;
+        pageNumber++;
+        yPos = 35;
+        addHeader();
+        addFooter(pageNumber);
     }
 
     addTableToPDF("Most Popular Items for the Day", "itemTable", {
@@ -197,9 +226,12 @@ function generatePDFReport() {
         1: { cellWidth: 'auto' }
     });
 
-    if (yPos > doc.internal.pageSize.height - 20) {
+    if (yPos > pageHeight - 40) {
         doc.addPage();
-        yPos = 15;
+        pageNumber++;
+        yPos = 35;
+        addHeader();
+        addFooter(pageNumber);
     }
 
     addTableToPDF("Transaction History for Today", "transactionTable", {
@@ -208,12 +240,10 @@ function generatePDFReport() {
         2: { cellWidth: 'auto' }
     });
     
-    doc.save("OrderReport.pdf");
+    doc.save("MOS_BURGERS_DailyOrderReport.pdf");
 }
 
-document.getElementById('generatePDFButton').addEventListener('click', generatePDFReport);
 function displayNoDataMessage() {
-
     const messageElement = document.createElement('div');
     messageElement.className = 'alert alert-info text-center';
     messageElement.role = 'alert';
@@ -242,3 +272,5 @@ function displayNoDataMessage() {
         generatePDFButton.style.display = 'none';
     }
 }
+
+document.getElementById('generatePDFButton').addEventListener('click', generatePDFReport);
